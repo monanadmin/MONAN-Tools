@@ -1,0 +1,30 @@
+# Mesh parameters
+## Folder containing mesh_input_file.txt
+exp_dir=/mnt/beegfs/guilherme.mendonca/scripts_CD-CT_only_for_2km_ellipse/scripts
+N=1
+## Folder containing vtx-mpas-meshes to generate meshes
+vtx_mpas_meshes_dir=/mnt/beegfs/guilherme.mendonca/scripts_CD-CT_only_for_2km_ellipse/sources/CGFD-USP-Create-Mesh/vtx-mpas-meshes
+## Folder to save generated meshes
+meshes_dir=/mnt/beegfs/guilherme.mendonca/scripts_CD-CT_only_for_2km_ellipse/datain/fixed
+## Coordinates of mesh center
+lon=-54.951
+lat=-21.338
+## Inner and outer radius (km)
+inner_radius=5000
+outer_radius=7000
+## Number of external layers for r > outer_radius
+n_layers=8
+## High resolution for r < inner_radius
+high_res=5
+## Low resolution for r > outer_radius
+low_res=1000
+## Whether to cut regional mesh (y/n)
+do_regional=n
+## Grid type (doughnut/constant)
+grid_type=ellipse
+## Ellipse parameters
+a_km=2500
+b_km=3688
+angle=-45
+delta=1
+# Automatic additions

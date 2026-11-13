@@ -1,23 +1,23 @@
 # Mesh parameters
 ## Folder containing mesh_input_file.txt
-exp_dir=/mnt/beegfs/guilherme.mendonca/scripts_CD-CT_doughnut_1km_2.5km_r_o_menor/scripts
+exp_dir=/mnt/beegfs/guilherme.mendonca/MONAN-Tools/scripts
 N=1
 ## Folder containing vtx-mpas-meshes to generate meshes
-vtx_mpas_meshes_dir=/mnt/beegfs/guilherme.mendonca/scripts_CD-CT_doughnut_1km_2.5km_r_o_menor/sources/CGFD-USP-Create-Mesh/vtx-mpas-meshes
+vtx_mpas_meshes_dir=/mnt/beegfs/guilherme.mendonca/MONAN-Tools/sources/CGFD-USP-Create-Mesh/vtx-mpas-meshes
 ## Folder to save generated meshes
-meshes_dir=/mnt/beegfs/guilherme.mendonca/scripts_CD-CT_doughnut_1km_2.5km_r_o_menor/datain/fixed
+meshes_dir=/mnt/beegfs/guilherme.mendonca/MONAN-Tools/grids
 ## Coordinates of mesh center
-lon=-59.000
-lat=-2.143
+lon=-45.01576941
+lat=-22.66697851
 ## Inner and outer radius (km)
-inner_radius=930
-outer_radius=1144
+inner_radius=300
+outer_radius=400
 ## Number of external layers for r > outer_radius
 n_layers=8
 ## High resolution for r < inner_radius
-high_res=1
+high_res=1.5
 ## Low resolution for r > outer_radius
-low_res=2.5
+low_res=5
 ## Whether to cut regional mesh (y/n)
 do_regional=y
 ## Grid type (doughnut/constant)
@@ -28,4 +28,3 @@ b_km=3688
 angle=-45
 delta=1
 # Automatic additions
-file_name=lat_-2_lon_-59_oradius_1144_iradius_930_margin_214_hres_1_lres_2.region

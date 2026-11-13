@@ -32,9 +32,9 @@ EXECS=${DIRHOMED}/execs;               mkdir -p ${EXECS}
 #GFILEPATH=${DATAIN}/fixed/lat_-21_lon_-55_ellipse_a_2500_b_3688_ang_-45_iradius_5000_margin_2000_hres_3_lres_1000.region.grid.nc
 #GFILEPATH=/mnt/beegfs/guilherme.mendonca/scripts_CD-CT_only_for_2km_ellipse/ellipse.grid.nc
 #GFILEPATH=/mnt/beegfs/guilherme.mendonca/scripts_CD-CT_only_for_2km_ellipse/datain/fixed/lat_-2_lon_-59_oradius_4000_iradius_250_margin_3750_hres_10_lres_1000.region/lat_-2_lon_-59_oradius_4000_iradius_250_margin_3750_hres_10_lres_1000.region.grid.nc
-GFILEPATH=/mnt/beegfs/guilherme.mendonca/scripts_CD-CT_doughnut_1km_2.5km_r_o_menor/datain/fixed/lat_-2_lon_-59_oradius_1144_iradius_930_margin_214_hres_1_lres_2.region.grid.nc
+GFILEPATH=/mnt/beegfs/guilherme.mendonca/MONAN-Tools/grids/circle.grid.nc
 ## Output directory and filename to save plot
-POSTFILEPATH=/mnt/beegfs/guilherme.mendonca/scripts_CD-CT_doughnut_1km_2.5km_r_o_menor/datain/fixed/lat_-2_lon_-59_oradius_1144_iradius_930_margin_214_hres_1_lres_2.region.grid.png
+POSTFILEPATH=/mnt/beegfs/guilherme.mendonca/MONAN-Tools/grids/circle.grid.png
 #---------------------------------------------------------------------
 
 source ~/.bashrc
